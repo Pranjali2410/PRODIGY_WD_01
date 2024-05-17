@@ -1,0 +1,252 @@
+# Pranjali Jibhakate
+# PRODIGY Task:- 01 Password complexity checker
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validateForm() {
+            var Name = document.getElementById("Name").value;
+            var Mobile = document.getElementById("Mobile").value;
+            var x = document.myform.email.value;
+            var atposition = x.indexOf("@");
+            var dotposition = x.lastIndexOf(".");
+            var Course = document.getElementById("Course").value;
+            if (Name == "") {
+                alert("Please enter your name.");
+                return false;
+            }
+            else if (Mobile == "") {
+                alert("Please enter your mobile no.");
+                return false;
+            }
+            else if (Mobile.length < 10 || Mobile.length > 10)
+            {
+                alert("Please check your mobile no.");
+                return false;
+            }
+            else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length)
+            {
+                alert("Please enter a valid e-mail address \n atpostion:" + atposition + "\n dotposition:" + dotposition);
+                return false;
+            }
+            else
+            {
+                alert("Thanks for showing interest.");
+                return true;
+
+            }
+    }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ 
+</head>
+
+<body>
+    <div class="img1">
+        <div class="animate__animated animate__backInRight animate__slower">
+            <img src="Screenshot 2023-09-17 225206.png" height="130px" width="370px">
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <div class="dropdown">
+                <text class="dropbtn">Courses</button>
+                    <div class="dropdown-content">
+                        <a href="Prog_courses.html">Programming</a>
+                        <a href="Basic_courses1.html">Basic</a>
+                        <a href="Des_courses2.html">Designing</a>
+                    </div>
+            </div>
+            <li><a href="admission_form.html">Admission</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="#">Online Exam</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <input type="textfield" name="" class="text1" placeholder="Search">
+        </ul>
+    </nav>
+    <div class="form">
+        <a href="index.html">
+            <button type="submit">LOG OUT</button>
+        </a>
+    </div>
+    <div id="img2">
+        <img src="0_M4bxiCIjcTK-2Xr6.jpg" height="510em" width="965em">
+    </div>
+    <div class="enq">
+        <h1 class="animate__animated animate__pulse animate__infinite">
+            Enquiry Form
+        </h1>
+        <hr>
+        <br>
+        <form>
+            <table>
+                <tr>
+                    <td> Name:</td>
+                </tr>
+                <tr>
+                    <td><input type="textfield" name="" class="text" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td> Mobile:</td>
+                </tr>
+                <tr>
+                    <td><input type="textfield" name="" class="text" placeholder="Enter Mobile"></td>
+                </tr>
+                <tr>
+                    <td> Email:</td>
+                </tr>
+                <tr>
+                    <td><input type="textfield" name="" class="text" placeholder="Email Address"></td>
+                </tr>
+                <tr>
+                    <td> Select Course:</td>
+                </tr>
+                <tr>
+
+                    <td><select>
+                            <option>C</option>
+                            <option>C++</option>
+                            <option>Python</option>
+                            <option>Java</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="animate__animated animate__fadeIn animate__infinite animate__slower">
+                            <input type="submit" class="button" value="Enquiry Now" onsubmit="return validateForm()">
+                                
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <br>
+    <h1 class="animate__animated animate__pulse animate__infinite" style="text-align: center;">
+        Advance Computer Education
+    </h1>
+    <hr>
+    <div class="content">
+        <br>
+        Advance Computer Education establishedAdvance Computer education established in the year 1996, is a renowned
+        Institute in Advanced Software Courses & Information Technology.
+        <br>
+        The aim of institute imparting quality education in the field of Information Technology, and Advanced Software
+        Courses.
+        <br>
+        At Advanced Computer we believe that quality is an absolute prerequisite for survival and success. Our endeavor
+        is to provide an education that should prove to be meaningful for the students. All activities of our institute
+        are centered towards the same goal.
+        <br>
+    </div>
+    <br>
+    <h1 class="animate__animated animate__pulse animate__infinite" style="text-align: center;">
+        Our Mission</h1>
+    <hr>
+    <div class="mis">
+        <br>
+        <span style="color: red;">
+            Best brands combine physical, emotional, and logical elements into one exceptional
+            customer (and employee) experience that you value as much as they do. A good mission statement will not only
+            explain your
+            brand’s purpose, but will also foster a connection with customers.</span>
+        <br>
+        When your brand creates a genuine connection with customers and employees, they'll stay loyal to your
+        company, thereby increasing your overall profitability.
+        <br>
+        Mission statements also help you stand out in the marketplace, differentiating your brand from the
+        competition.
+    </div>
+    <br>
+    <h1 class="animate__animated animate__pulse animate__infinite" style="text-align: center;">
+        Institutional Goals</h1>
+    <hr>
+    <div class="goals">
+        <br>
+        <p class="points">To Provide access to education without the limits of time, place and distance.</p>
+        <br>
+        <p class="points">To Provide career programs that meets the need of students and employees.</p>
+        <br>
+        <p class="points">To Provide opportunities for personal growth and cultural enrichment.</p>
+        <br>
+        <p class="points">To deliver support programs to help students achieve their goals.</p>
+        <br>
+        <p class="points">To lead in the creation of partnership that faster the economics development of the religion.
+        </p>
+        <br>
+        <p class="points">To educate students with an understanding and appreciation of world cultures.</p>
+        <br>
+        <p class="points">To prepare our community to succeed in the global economy.</p>
+        <br>
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h2 class="footer-heading" style="text-align: center;">Programming & Database in</h2>
+                <ul class="footer-menu">
+                    <li><a href="#">C/C++</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Advanced Java</a></li>
+                    <li><a href="#">J2EE</a></li>
+                    <li><a href="#">Data Structure</a></li>
+                    <li><a href="#">Visual Basic</a></li>
+                    <li><a href="#">Oracle</a></li>
+                    <li><a href="#">SQL Server</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Python</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-heading" style="text-align: center;">Web Designing in</h2>
+                <ul class="footer-menu">
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Javascript/XML</a></li>
+                    <li><a href="#">FrontPage</a></li>
+                    <li><a href="#">PHP & MySQL</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">PHP Framework</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-heading" style="text-align: center;">.Net</h2>
+                <ul class="footer-menu">
+                    <li><a href="#">VB.Net</a></li>
+                    <li><a href="#">ASP .Net</a></li>
+                    <li><a href="#">C# .Net</a></li>
+                    <li><a href="#">SQL Server</a></li>
+                    <li><a href="#">Advance .Net</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-heading" style="text-align: center;">Basic Courses</h2>
+                <ul class="footer-menu">
+                    <li><a href="#">MS-CIT</a></li>
+                    <li><a href="#">MS-Office</a></li>
+                    <li><a href="#">Interview Skills</a></li>
+                    <li><a href="#">Personality Development</a></li>
+                    <li><a href="#">Tally 9 ERP</a></li>
+                    <li><a href="#">Costing & Auditing</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="animate__animated animate__lightSpeedInLeft animate__slower animate__delay-5s">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.494052583618!2d79.11967847479883!3d21.132728084200423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c72f0ff6b443%3A0xaf1c089e84499529!2sAdvance%20Infotech!5e0!3m2!1sen!2sin!4v1697809327986!5m2!1sen!2sin"
+                    width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+</body>
+
+</html>

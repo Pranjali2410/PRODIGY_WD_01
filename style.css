@@ -1,0 +1,226 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 42px;
+}
+
+nav {
+    background-color: brown;
+}
+
+.form button {
+    outline: 0;
+    background: #6a62d2;
+    width: 6%;
+    border: 0;
+    margin: -39px 0px 0 1189px;
+    border-radius: 50px;
+    padding: 9px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: black;
+    color: #fff;
+
+}
+.text1 {
+    height: 20px;
+    width: 14em;
+    float: right;
+    margin: 8px 8px 10px 8px;
+}
+
+.img1 {
+    background-color: whitesmoke;
+}
+
+#img2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px 135px;
+}
+
+.enq {
+    float: right;
+    margin: -525px 28px 98px 985px;
+    position: absolute;
+}
+
+.text {
+    height: 17px;
+    width: 37em;
+    float: right;
+    margin: 10px 24px 12px 1px;
+    padding: -1px 204px 2px 189px;
+}
+
+form table tr td {
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 3px 231px 2px 189px;
+    color: white;
+    background-color: forestgreen;
+}
+
+form table tr td select {
+    margin: 2px -12px 3px 2px;
+    outline: none;
+    padding:1px 430px 0px 0px;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 200px 0 200px;
+}
+
+.mis {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 200px 0 200px;
+}
+
+.goals {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 350px 0 350px;
+}
+
+.points {
+    border: 4px solid blue;
+    border-radius: 15px;
+    background-color: rgb(70, 169, 209);
+    color: black;
+    font-size: 20px;
+    padding: 3px;
+    /* gap: 1%; */
+
+}
+
+/* hr{
+    margin: 0 130px 0 130px;
+} */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 0;
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 3px 0px -17px 182px;
+}
+
+.footer-column {
+    flex-basis: calc(45.33% - -8px);
+    margin-right: 20px;
+}
+
+.footer-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 5px;
+}
+
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+.map {
+    float: right;
+    margin: -392px 0 0 0;
+}
+
+.dropbtn {
+    background-color: brown;
+    color: white;
+    float: right;
+    margin: -18px 3px -6px 40px;
+    font-size: 20px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: #fff;
+    color: black;
+    padding: 20px 0px 2px 29px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
